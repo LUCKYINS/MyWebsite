@@ -6,52 +6,45 @@
     font-style: italic;
     font-weight: 600;
     background-blend-mode: normal;
-    color: rgba(255, 255, 255, 0.301);
+    color: rgba(83, 78, 78, 0.774);
+    background-color: rgb(37, 37, 37);
 }
-.page{
-    background: linear-gradient(180deg, #646464 0%, #232323 100%);
-    height: 100vh;
-    width:100vw;
+.container{
+    left: 20vw;
+    top: 30vh;
+    background-color: none;
+    font-size: 5vw;
 }
-.comingsoon {
-    left: 260px;
-    top: 255px;
-    font-size: 78px;
+.container2{
+    left: 36vw;
 }
 .dot1{
-    left: 690px;
-    top: 250px;
-    font-size: 85px;
     animation-name: jump;
     animation-iteration-count: infinite;
     animation-duration: 2.6s;
     animation-delay: 1s;
 }
 .dot2{
-    left: 710px;
-    top: 250px;
-    font-size: 85px;
+    left:1.6vw ;
     animation-name: jump;
     animation-iteration-count: infinite;
     animation-duration: 2.6s;
     animation-delay: 1.5s;
 }
 .dot3{
-    left: 730px;
-    top: 250px;
-    font-size: 85px;
+    left:3.3vw ;
     animation-name: jump;
     animation-iteration-count: infinite;
-    animation-duration: 2.60s;
+    animation-duration: 2.6s;
     animation-delay: 2s;
 }
 .coder{
-    left: 100px;
-    top: 600px;
+    font-size: 2vw;
+    left: 5vw;
+    top: 80vh;
 } 
 @keyframes jump {
-    0%{top: 250px;}
-    50%{top: 240px;}
-    100%{top:250px;}
+    0%{top: 0vw;;}
+    50%{top: -0.7vw;}
+    100%{top: 0vw;}
 }
-  
