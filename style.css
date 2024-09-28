@@ -9,42 +9,48 @@
     color: rgba(83, 78, 78, 0.774);
     background-color: rgb(37, 37, 37);
 }
-.container{
+.container {
     left: 20vw;
     top: 30vh;
     background-color: none;
     font-size: 5vw;
 }
-.container2{
-    left: 45vw;
+.container2 {
+    left: 28vw;
 }
-.dot1{
+.dot1 {
     animation-name: jump;
     animation-iteration-count: infinite;
     animation-duration: 2.6s;
     animation-delay: 1s;
 }
-.dot2{
-    left:1.6vw ;
+.dot2 {
+    left: 1.6vw;
     animation-name: jump;
     animation-iteration-count: infinite;
     animation-duration: 2.6s;
     animation-delay: 1.5s;
 }
-.dot3{
-    left:3.3vw ;
+.dot3 {
+    left: 3.3vw;
     animation-name: jump;
     animation-iteration-count: infinite;
     animation-duration: 2.6s;
     animation-delay: 2s;
 }
-.coder{
+.coder {
     font-size: 2vw;
     left: 5vw;
     top: 80vh;
-} 
+}
 @keyframes jump {
-    0%{top: 0vw;;}
-    50%{top: -0.7vw;}
-    100%{top: 0vw;}
+    0% {
+        top: 0vw;
+    }
+    50% {
+        top: -0.7vw;
+    }
+    100% {
+        top: 0vw;
+    }
 }
